@@ -15,7 +15,7 @@ API RESTful desenvolvida em Spring Boot para o gerenciamento de tarefas pessoais
 | **DELETE**| `/{id}` | Deleta uma tarefa existente pelo ID. | `204 No Content` | `404 Not Found` |
 
 ### Teste da API
-Utilize ferramentas como Insomnia, Postman ou qualquer ferramenta da sua preferência para testar cada método HTTP
+Utilize ferramentas como `Insomnia, Postman` ou qualquer ferramenta da sua preferência para testar cada método HTTP
 
 #### Exemplo de Corpo da Requisição (JSON para POST/PUT)
 ```json
