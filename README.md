@@ -14,7 +14,10 @@ API RESTful desenvolvida em Spring Boot para o gerenciamento de tarefas pessoais
 | **PUT** | `/{id}` | Atualiza uma tarefa existente pelo ID. Requer JSON. | `200 OK` | `404 Not Found` |
 | **DELETE**| `/{id}` | Deleta uma tarefa existente pelo ID. | `204 No Content` | `404 Not Found` |
 
-### Exemplo de Corpo da Requisição (JSON para POST/PUT)
+### Teste da API
+Utilize ferramentas como Insomnia, Postman ou qualquer ferramenta da sua preferência para testar cada método HTTP
+
+#### Exemplo de Corpo da Requisição (JSON para POST/PUT)
 ```json
 {
   "titulo": "String (Estudar Português)",
